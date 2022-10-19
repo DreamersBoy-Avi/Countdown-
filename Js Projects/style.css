@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(dota_2_art_logo_temnyj_94988_1920x1080.jpg);
+    color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+
+}
+.box{
+    font-size: medium;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: ;
+    
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+p{
+    font-size: 14px;
+}
+.ny{
+    font-family: 'Inspiration';
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.box h2{
+    font-size: 20px;
+}
+.box small{
+    font-size: 10px;
+}
+@media (min-width:576px){
+    .ny{
+        font-size: 80px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .box{
+        width: 70px;
+        height: 50px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box small{
+        font-size: 12px;
+    }
+}
+@media (min-width:768px){
+    .ny{
+        font-size: 120px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .box h2{
+        font-size: 50px;
+    }
+    .box small{
+        font-size: 15px;
+    }
+}
